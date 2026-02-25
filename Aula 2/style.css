@@ -1,0 +1,50 @@
+
+    p{
+        color: black;
+        background-color: greenyellow;
+        font-size: 25pt;
+        text-align: center;
+        font-family: Monospace;
+    }
+
+    h1{
+        font-size: 50pt;
+        text-align:center;
+        background-color: yellow;
+        font-family: Monospace;
+    }
+
+    #p1{
+        background-color: yellow;
+        font-size: 30pt;
+    }
+    
+    #p2{
+        background-color: blueviolet;
+    }
+
+    *{
+        background-color: rgb(0, 0, 0);
+    }
+
+    a{
+        color: cadetblue;
+        font-size: 30pt;
+    }
+
+    a:hover{
+        color:rgb(221, 104, 202);
+        font-size: 35pt;
+        background-color: aquamarine;
+    }
+    
+    .wp{
+        color: whitesmoke;
+        background-color: palevioletred;
+    }
+    
+    div p{
+        color:red;
+        background-color: wheat;
+    }
+
