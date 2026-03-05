@@ -62,4 +62,11 @@ a:hover{
     margin: auto;
 }
 
+table {
+    border: solid;
+}
+
+tr {
+    border-color: black;
+}
 
