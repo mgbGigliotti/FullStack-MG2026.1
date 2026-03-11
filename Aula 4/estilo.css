@@ -1,0 +1,43 @@
+.flex-container{
+    background-color: purple;
+    display: flex;
+    height: 400px;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap ; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.flex-container div{
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 10px;
+}
+
+#div{
+    background-color: peachpuff;
+    order: 1;
+    
+}
+
+#div2{
+    background-color: palevioletred;
+    order: 1;
+}
+
+#div3{
+    background-color: palegreen;
+    order: 1;
+    flex-grow: 2;
+    text-align: center;
+}
+
+#div4{
+    flex-basis: 100px; /* tamanho fixo */
+    flex: 0 0 100px; /* crescimento, redução e o basis */
+}
+
+#div5{
+    align-self: flex-end;
+}
